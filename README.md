@@ -1,6 +1,7 @@
 # Vote2Cap-DETR-master-deform
 This project builds on "End-to-End 3D Dense Captioning with Vote2Cap-DETR" and "Vote2Cap-DETR++." It uses deformable attention similar to Deformable DETR. However, due to the use of KNN, memory consumption is extremely high. Currently, voxelization is being explored to reduce memory usage.
 
+![2d50c0873435c7543ca96a01ecfdeb19](https://github.com/user-attachments/assets/85d40b57-96e4-4687-8e11-384a947a9e78)
 
 
 This project achieved a better mAP@0.5 score (0.546795606) during the pretraining phase. However, unfortunately, its performance during the training phase was not as satisfactory.
